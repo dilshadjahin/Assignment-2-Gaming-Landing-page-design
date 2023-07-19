@@ -1,0 +1,190 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/************header-section css*******/
+
+nav{
+    display: flex;
+    padding-top: 20px ;
+    justify-content: space-between;
+}
+nav .gamer-left{
+    display: flex;
+    margin-left: 60px;
+   
+}
+.gamer-left img{
+    margin-top: 16px;
+    margin-right: 10px;
+    height: 36px;
+    width: auto;
+}
+.gamer-left h2{
+    font-size: 45px;
+    margin-top: 6px;
+}
+.gamer-left span{
+    color: #FF42A5 ;
+}
+
+nav .gamer-right{
+    display: flex;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+.gamer-right ul{
+    display: flex;
+}
+.gamer-right li{
+    list-style: none;
+    font-weight: 500;
+    font-size: 1.25 rem ;
+    margin-right: 30px;
+
+}
+.gamer-right .social-btn{
+    
+    font-weight: 500;
+    font-size: 1 rem ;
+    
+    
+}
+.social-btn img{
+    width: 20px;
+    height: auto;
+   padding-top: 14px;
+   margin-left: 4px;
+
+}
+
+
+/********banner sec css*****/
+
+.banner-1{
+    background-color: #FDFBFE;
+    display: flex;
+    padding: 60px;
+}
+.banner-1-img img{
+    width: 600px;
+    height: auto;
+    margin-left: 160px;
+    
+}
+.banner-1-content h2{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+.banner-1-content h1{
+    color: #DE4CC1;
+    font-size: 95px;
+    font-weight: 700;
+    margin-top: -30px;
+}
+.banner-1-content ul{
+    list-style: none;
+    margin-top:-60px;
+    margin-left: -40px;
+}
+.banner-1-content ul li span{
+    color: #534C64;
+    font-size: 20px;
+    margin-left: 10px;
+    padding-top: 5px;
+    
+}
+.banner-1-content img{
+    width: 24px;
+    height: 22px;
+}
+.banner-1-content .btn-1{
+    margin-top: 20px;
+    padding: 12px 38px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #FDFBFE;
+    font-weight: 600;
+    background-color: #FF42A5;
+    border: none;
+}
+.banner-1-content .btn-2{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 12px 38px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #FDFBFE;
+    font-weight: 600;
+    background-color: #4EC5F7;
+    border: none;
+}
+
+
+/*******Responsive css******/
+
+
+/*****for mobile****/
+
+@media screen and (max-width:576px) {
+
+    header{
+        padding: 20px;
+        
+
+    }
+
+    nav,
+    .gamer-right,
+    .ul
+    {
+
+        flex-direction: column;
+        text-align: center;
+    }
+    .banner-1{
+        flex-direction: column-reverse;
+        padding: 16px;
+        margin-top: 40px;
+    }
+    .banner-1-img img {
+        
+        margin-left: 0;
+        width: 90%;
+        
+    }
+    ul{
+        flex-direction: column;
+        
+    }
+    ul li{
+        padding-bottom: 30px;
+    }
+    .gamer-right .social-btn{
+        margin-top: -30px;
+        padding-left: 20px;
+    }
+    
+}
+
+/*******for tablet******/
+
+
+@media screen  and (min-width: 576px) and (max-width:960px){
+
+    nav {
+        flex-direction: row;
+    }
+    .banner-1 .banner-1-content{
+        padding: 0px;
+    }
+    .banner-1-img img {
+        
+        margin-left: 40px;
+        width: 420px;
+        padding-top: 40px;
+        
+    }
+}
+

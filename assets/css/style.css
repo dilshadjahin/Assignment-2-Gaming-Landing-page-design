@@ -317,7 +317,69 @@ nav .gamer-right{
     margin-right: 25px;
     padding-left: 30px;
   }
+ /*******footer section css*********/
 
+ .footer-sec{
+    background-color: #0B0223;
+    color: #FDFBFE;
+    padding: 60px;
+
+ }
+ .footer-logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+ }
+ .footer-logo img{
+    margin-top: 16px;
+    margin-right: 10px;
+    height: 36px;
+    width: auto;
+ }
+ .footer-logo h2{
+   
+    font-size: 45px;
+    margin-top: 6px;
+}
+.footer-logo span{
+    color: #FF42A5 ;
+}
+.footer-h6{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+}
+.footer-icons img{
+    margin-top: 10px;
+    margin-right: 20px;
+    width: 40px;
+    height: 40px;
+    
+}
+.footer-spans{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.footer-spans p{
+    margin-right: 30px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-para{
+
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 40px;
+}
+ 
 
 
 
@@ -340,12 +402,16 @@ nav .gamer-right{
     .gamer-right,
     .banner-2,
     .reverse-1,
+    .footer-logo,
+    .footer-h6,
     .ul
     {
 
         flex-direction: column;
         text-align: center;
+
     }
+
     .banner-1{
         flex-direction: column-reverse;
         padding: 16px;
@@ -438,6 +504,30 @@ nav .gamer-right{
     }
     .games-sec-2{
         display: none;
+    }
+    .footer-logo img{
+        width: 80px;
+        height: auto;
+        margin-left: 86px;
+        padding: 0;
+    }
+    .footer-h6{
+        display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         padding: 0;
+    }
+    .footer-icons{
+        display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         padding-top: 10px;
+        
+    }
+     .footer-spans{
+        margin-top: 20px;
+        display: grid;
+         grid-template-columns: repeat(2, 1fr);
+         padding: 0;
+        
     }
     
    

@@ -50,6 +50,7 @@ nav .gamer-right{
     
     
 }
+
 .social-btn img{
     width: 20px;
     height: auto;
@@ -491,7 +492,9 @@ nav .gamer-right{
     .games-sec-1{
         padding: 0;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 2fr);
+        justify-content: center;
+        gap: 44px;
           
     }
     .games-sec-1 img{
@@ -499,8 +502,7 @@ nav .gamer-right{
         margin: 0;
     }
     .games-sec-1 h6{
-        padding-left: 10px;
-        margin: 0;
+        display: none;
     }
     .games-sec-2{
         display: none;
@@ -528,6 +530,10 @@ nav .gamer-right{
          grid-template-columns: repeat(2, 1fr);
          padding: 0;
         
+    }
+    .footer-para{
+        line-height: 30px;
+        margin-right: 10px;
     }
     
    
